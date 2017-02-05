@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var broccoli = require('../lib/index');
+broccoli.cli();

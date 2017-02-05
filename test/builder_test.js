@@ -351,7 +351,7 @@ describe('Builder', function() {
     function hasBroccoliTmpDir(baseDir) {
       var entries = fs.readdirSync(baseDir)
       for (var i = 0; i < entries.length; i++) {
-        if (/^broccoli-/.test(entries[i])) {
+        if (/^dtk-/.test(entries[i])) {
           return true
         }
       }
@@ -366,6 +366,7 @@ describe('Builder', function() {
     })
 
     it('creates temporary directory in directory given by tmpdir options', function() {
+      console.log(tmpdir);
       builder = new Builder(new plugins.VeggiesPlugin, { tmpdir: tmpdir })
       expect(hasBroccoliTmpDir(tmpdir)).to.be.true
     })

@@ -1,11 +1,12 @@
 {
-  "name": "broccoli",
-  "description": "Fast client-side asset builder",
-  "version": "1.1.0",
-  "author": "Jo Liss <joliss42@gmail.com>",
+  "name": "genkgo-dtk-cli",
+  "description": "Genkgo Design Toolkit based on Broccoli JS",
+  "version": "0.1.0",
+  "author": "Frederik Bosch <f.bosch@genkgo.nl>",
   "main": "lib/index.js",
   "license": "MIT",
   "keywords": [
+    "genkgo",
     "builder",
     "build",
     "frontend",
@@ -15,20 +16,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/broccolijs/broccoli"
+    "url": "https://github.com/genkgo/dtk"
   },
-  "homepage": "https://github.com/broccolijs/broccoli",
   "dependencies": {
     "broccoli-node-info": "1.1.0",
     "broccoli-slow-trees": "^2.0.0",
     "broccoli-source": "^1.1.0",
     "commander": "^2.5.0",
-    "connect": "^3.3.3",
     "copy-dereference": "^1.0.0",
     "findup-sync": "^0.4.2",
-    "handlebars": "^4.0.4",
     "heimdalljs-logger": "^0.1.7",
-    "mime": "^1.2.11",
     "rimraf": "^2.4.3",
     "rsvp": "^3.0.17",
     "sane": "^1.4.1",
