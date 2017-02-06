@@ -53,5 +53,6 @@
   },
   "bin": {
     "g2dtk": "bin/g2dtk"
-  }
+  },
+  "version": "0.1.0"
 }
