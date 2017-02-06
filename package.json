@@ -1,7 +1,6 @@
 {
   "name": "genkgo-dtk-cli",
   "description": "Genkgo Design Toolkit based on Broccoli JS",
-  "version": "0.1.0",
   "author": "Frederik Bosch <f.bosch@genkgo.nl>",
   "main": "lib/index.js",
   "license": "MIT",
@@ -29,6 +28,7 @@
     "rimraf": "^2.4.3",
     "rsvp": "^3.0.17",
     "sane": "^1.4.1",
+    "tiny-lr": "^1.0.3",
     "tmp": "0.0.28",
     "underscore.string": "^3.2.2"
   },
@@ -50,5 +50,8 @@
   "scripts": {
     "pretest": "multidep test/multidep.json",
     "test": "mocha"
+  },
+  "bin": {
+    "g2dtk": "bin/g2dtk"
   }
 }
