@@ -24,6 +24,7 @@
     "commander": "^2.5.0",
     "copy-dereference": "^1.0.0",
     "findup-sync": "^0.4.2",
+    "fs-extra": "^7.0.1",
     "heimdalljs-logger": "^0.1.7",
     "rimraf": "^2.4.3",
     "rsvp": "^3.0.17",
