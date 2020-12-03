@@ -29,7 +29,7 @@
     "rimraf": "^2.4.3",
     "rsvp": "^3.0.17",
     "sane": "^4.1.0",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.4",
     "tiny-lr": "^1.0.3",
     "tmp": "0.0.28",
     "underscore.string": "^3.2.2"
